@@ -2,7 +2,7 @@
 #!desc=V 
 
 [Script]
-wjql = type=http-response, pattern=^https:\/\/slapi\.oray\.net\/service\/used, script-path=https://raw.githubusercontent.com/LimQB/QX_JS/master/Scripts/wjql.js, requires-body=true, max-size=-1, timeout=60
+wjql = type=http-response, pattern=^https:\/\/wjapi\.os\-os\.com\/user\/getUserInfo, script-path=https://raw.githubusercontent.com/LimQB/QX_JS/master/Scripts/wjql.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = slapi.oray.net
+hostname = %APPEND% wjapi.os-os.com
