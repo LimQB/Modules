@@ -1,8 +1,8 @@
-#!name=WJQL
-#!desc=V 
+#!name=XRK
+#!desc=V_xrk 
 
 [Script]
-wjql = type=http-response, pattern=^https:\/\/slapi\.oray\.net\/service\/used, script-path=https://raw.githubusercontent.com/LimQB/QX_JS/master/Scripts/xrk.js, requires-body=true, max-size=-1, timeout=60
+xrk = type=http-response, pattern=^https:\/\/slapi\.oray\.net\/service\/used, script-path=https://raw.githubusercontent.com/LimQB/QX_JS/master/Scripts/xrk.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% slapi.oray.net
