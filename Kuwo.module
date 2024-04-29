@@ -12,4 +12,4 @@ Kuwo = type=http-response, pattern=^(?!.*img).*?(kuwo\.cn|lrts\.me)(/vip|/openap
 
 
 [Mitm]
-hostname = *.kuwo.cn, audiobookpay.lrts.me
+hostname = %APPEND% *.kuwo.cn, audiobookpay.lrts.me
